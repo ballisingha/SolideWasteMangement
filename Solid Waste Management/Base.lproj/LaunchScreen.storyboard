@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ztO-60-VT1">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="310"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group-1" translatesAutoresizingMaskIntoConstraints="NO" id="NiR-4s-sBe">
+                                        <rect key="frame" x="0.0" y="47" width="393" height="805"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" name="Bg_Color"/>
+                                <constraints>
+                                    <constraint firstItem="NiR-4s-sBe" firstAttribute="top" secondItem="ztO-60-VT1" secondAttribute="top" constant="47" id="H6X-i6-Rld"/>
+                                    <constraint firstAttribute="trailing" secondItem="NiR-4s-sBe" secondAttribute="trailing" id="RKk-6Z-E7L"/>
+                                    <constraint firstItem="NiR-4s-sBe" firstAttribute="leading" secondItem="ztO-60-VT1" secondAttribute="leading" id="iNo-6P-Lfr"/>
+                                    <constraint firstAttribute="bottom" secondItem="NiR-4s-sBe" secondAttribute="bottom" constant="-542" id="rBp-1m-fuW"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mangalore_City_Corporation_Logo_pngformat 1" translatesAutoresizingMaskIntoConstraints="NO" id="nnW-cn-yg1">
+                                <rect key="frame" x="149" y="233" width="94" height="93"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mangalore City Corporation " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="feg-EN-Wlx">
+                                <rect key="frame" x="61" y="336" width="271" height="24"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" name="Txt_Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stadtverwaltung Mangalore" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DqW-Fa-GAe">
+                                <rect key="frame" x="61" y="370" width="271" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" name="Txt_Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Smart Waste Management" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="drB-O7-Q3f">
+                                <rect key="frame" x="61" y="404" width="271" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <color key="textColor" name="Txt_Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Intelligentes Abfallmanagement" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MfZ-K3-wOe">
+                                <rect key="frame" x="46" y="434.33333333333331" width="301" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <color key="textColor" name="Txt_Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="truck" translatesAutoresizingMaskIntoConstraints="NO" id="6oV-RW-p8k">
+                                <rect key="frame" x="0.0" y="570" width="393" height="261.66666666666674"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="393" id="6u4-dl-A56"/>
+                                    <constraint firstAttribute="height" constant="261.5" id="XOG-Xb-pvM"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GIZ &amp; German Cooperation- Implemented by 1" translatesAutoresizingMaskIntoConstraints="NO" id="98w-Xi-oRU">
+                                <rect key="frame" x="67.666666666666686" y="521" width="258" height="97"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DqW-Fa-GAe" secondAttribute="trailing" constant="61" id="0FY-wX-bYB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="98w-Xi-oRU" secondAttribute="bottom" constant="166" id="1Bh-Fd-pZs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="98w-Xi-oRU" secondAttribute="trailing" constant="67.5" id="21v-LC-Imp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nnW-cn-yg1" secondAttribute="trailing" constant="150" id="3kr-Og-NIb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MfZ-K3-wOe" secondAttribute="trailing" constant="46" id="5jo-cn-tNe"/>
+                            <constraint firstItem="MfZ-K3-wOe" firstAttribute="top" secondItem="drB-O7-Q3f" secondAttribute="bottom" constant="10" id="8SQ-if-d1m"/>
+                            <constraint firstAttribute="bottom" secondItem="6oV-RW-p8k" secondAttribute="bottom" constant="20.5" id="8s0-8w-FgQ"/>
+                            <constraint firstItem="feg-EN-Wlx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="61" id="BYK-Xs-qAE"/>
+                            <constraint firstItem="nnW-cn-yg1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="149" id="Bd5-Qr-dRV"/>
+                            <constraint firstItem="DqW-Fa-GAe" firstAttribute="top" secondItem="feg-EN-Wlx" secondAttribute="bottom" constant="10" id="JEh-9l-DCc"/>
+                            <constraint firstItem="ztO-60-VT1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Ji7-dF-roO"/>
+                            <constraint firstItem="feg-EN-Wlx" firstAttribute="top" secondItem="nnW-cn-yg1" secondAttribute="bottom" constant="10" id="Jt5-aI-mXd"/>
+                            <constraint firstItem="ztO-60-VT1" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="KRs-zs-EJQ"/>
+                            <constraint firstItem="drB-O7-Q3f" firstAttribute="top" secondItem="DqW-Fa-GAe" secondAttribute="bottom" constant="10" id="L9V-86-tVW"/>
+                            <constraint firstItem="6oV-RW-p8k" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="OpM-QE-3iq"/>
+                            <constraint firstItem="MfZ-K3-wOe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="46" id="Stx-Ex-3G2"/>
+                            <constraint firstItem="ztO-60-VT1" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Yd2-af-y1W"/>
+                            <constraint firstItem="98w-Xi-oRU" firstAttribute="top" secondItem="MfZ-K3-wOe" secondAttribute="bottom" constant="66.329999999999998" id="bfF-bs-gpp"/>
+                            <constraint firstItem="6oV-RW-p8k" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="idM-Y6-BJG"/>
+                            <constraint firstItem="drB-O7-Q3f" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="61" id="mPF-1C-yZi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="feg-EN-Wlx" secondAttribute="trailing" constant="61" id="pHz-AQ-xGY"/>
+                            <constraint firstItem="98w-Xi-oRU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67.5" id="pQr-lF-a7b"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="drB-O7-Q3f" secondAttribute="trailing" constant="61" id="u71-ru-gA9"/>
+                            <constraint firstItem="DqW-Fa-GAe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="61" id="ukP-T0-suQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ztO-60-VT1" secondAttribute="bottom" constant="474" id="vas-3O-rKd"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="393" height="852"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="151.90839694656489" y="231.69014084507043"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="GIZ &amp; German Cooperation- Implemented by 1" width="259" height="97"/>
+        <image name="Group-1" width="2000" height="2850"/>
+        <image name="Mangalore_City_Corporation_Logo_pngformat 1" width="94" height="93"/>
+        <image name="truck" width="1806" height="1202"/>
+        <namedColor name="Bg_Color">
+            <color red="0.70196078431372544" green="0.96862745098039216" blue="0.84313725490196079" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Txt_Color">
+            <color red="0.54509803921568623" green="0.25490196078431371" blue="0.23921568627450981" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="24506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="135" id="KGk-i7-Jjw" customClass="CampaignTableViewCell" customModule="Solid_Waste_Management" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="340" height="92"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="340" height="92"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WBj-UC-Ibk">
+                        <rect key="frame" x="0.0" y="0.0" width="340" height="92"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="indianflag" translatesAutoresizingMaskIntoConstraints="NO" id="S6y-zQ-qnF">
+                                <rect key="frame" x="15" y="21.666666666666671" width="45" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="45" id="Q2N-Fp-HVP"/>
+                                    <constraint firstAttribute="height" constant="49" id="bH8-Xc-s6Z"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Independence Day Celebration" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a9f-ay-GzP">
+                                <rect key="frame" x="70" y="15" width="169" height="33.666666666666664"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12 Aug - 22 Aug, 2025" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wsx-hC-chj">
+                                <rect key="frame" x="70" y="62" width="130" height="15"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="S6y-zQ-qnF" firstAttribute="top" secondItem="WBj-UC-Ibk" secondAttribute="top" constant="21.5" id="29r-NQ-bu5"/>
+                            <constraint firstAttribute="width" constant="340" id="4F8-5i-qTN"/>
+                            <constraint firstAttribute="height" constant="92" id="9Fn-v1-8Vk"/>
+                            <constraint firstItem="wsx-hC-chj" firstAttribute="leading" secondItem="S6y-zQ-qnF" secondAttribute="trailing" constant="10" id="FJ2-Kg-7Qp"/>
+                            <constraint firstAttribute="bottom" secondItem="S6y-zQ-qnF" secondAttribute="bottom" constant="21.5" id="JK5-fr-wed"/>
+                            <constraint firstItem="a9f-ay-GzP" firstAttribute="top" secondItem="WBj-UC-Ibk" secondAttribute="top" constant="15" id="LaU-sw-pxG"/>
+                            <constraint firstItem="S6y-zQ-qnF" firstAttribute="leading" secondItem="WBj-UC-Ibk" secondAttribute="leading" constant="15" id="qJT-UN-JZF"/>
+                            <constraint firstItem="a9f-ay-GzP" firstAttribute="leading" secondItem="S6y-zQ-qnF" secondAttribute="trailing" constant="10" id="rMa-LB-4lL"/>
+                            <constraint firstAttribute="trailing" secondItem="a9f-ay-GzP" secondAttribute="trailing" constant="101" id="tfN-nd-Rih"/>
+                            <constraint firstAttribute="bottom" secondItem="wsx-hC-chj" secondAttribute="bottom" constant="15" id="wVP-ow-MOk"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="WBj-UC-Ibk" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="JVn-nA-sqN"/>
+                    <constraint firstAttribute="trailing" secondItem="WBj-UC-Ibk" secondAttribute="trailing" id="XLi-th-NRl"/>
+                    <constraint firstItem="WBj-UC-Ibk" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="g49-qW-bvS"/>
+                    <constraint firstAttribute="bottom" secondItem="WBj-UC-Ibk" secondAttribute="bottom" id="zBp-Gx-LLV"/>
+                </constraints>
+                <userDefinedRuntimeAttributes>
+                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                        <real key="value" value="10"/>
+                    </userDefinedRuntimeAttribute>
+                </userDefinedRuntimeAttributes>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="-51.908396946564885" y="185.21126760563382"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="indianflag" width="42" height="46"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
