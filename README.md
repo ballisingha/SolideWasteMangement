@@ -24,17 +24,6 @@ To add screenshots, place your image files in a `Screenshots/` folder and update
 
 ---
 
-## 🚀 Features
-
-- **Real-Time Truck Tracking** – Interactive map (MapKit) showing the live positions of waste collection trucks with custom annotations.
-- **OTP Authentication** – Secure two-factor login via mobile number and a 6-digit one-time password.
-- **Grievance Submission** – Citizens can lodge complaints or reports about waste management issues directly from the app.
-- **Feedback System** – Users can rate and provide written feedback on waste collection services.
-- **Awareness Campaigns** – A campaigns feed that highlights community initiatives and educational content around waste reduction and recycling.
-- **Multi-Language Support** – The app supports both **English** and **German**, selectable on the login screen.
-
----
-
 ## 🛠️ Tech Stack
 
 | Category | Technology |
@@ -127,19 +116,6 @@ LoginVC
 | Permission | Reason |
 |---|---|
 | **Location Services** | Required to display the user's position and nearby truck locations on the map |
-
----
-
-## 🌐 API
-
-The app communicates with a RESTful backend. The active environment is controlled by the `AppMode` enum in `Config.swift`:
-
-| Mode | Description |
-|---|---|
-| `DEVELOPMENT` | Local development server |
-| `TESTING` | QA / staging server |
-| `DEMO` | Demo server (default) |
-| `LIVE` | Production server |
 
 ---
 
